@@ -43,6 +43,9 @@ class BoardPinList(APIView):
         queryset    = get_list_or_404(Pin, board__id=board_id)
         return queryset
     
-    def get(self, request, board_id, *args, **kwargs):
-        pass
+    def get(self, request, pk, *args, **kwargs):
+        pins        = self.get_queryset(pk)
+        serializer  = PinSerializer(pins, many=True)
+        return Response(serializer.data)
+        
     

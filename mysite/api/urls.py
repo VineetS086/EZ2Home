@@ -6,6 +6,7 @@ from . import views
 urlpatterns = format_suffix_patterns([
     path('', views.BoardList.as_view()),
     path('<int:pk>/', views.BoardDetail.as_view()),
+    path('<int:pk>/pins/', views.BoardPinList.as_view()),
 
 ])
 

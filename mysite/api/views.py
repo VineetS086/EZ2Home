@@ -69,6 +69,11 @@ class PinDetails(APIView):
 
     def put(self, request, board_id, pin_no, *args, **kwargs):
         pin         = self.get_object(board_id, pin_no)
+
+        request.data['board'] = board_id if request.data['board'] is None else request.data['board']
+        request.data['pin_no'] = pin_no
+        request.data['name'] = pin.name if request.data['name'] is None else request.data['name']
+
         serializer  = PinSerializer(pin, data=request.data)
         if serializer.is_valid():
             serializer.save()
@@ -76,7 +81,7 @@ class PinDetails(APIView):
         return Response(serializer.errors, status=400)
 
     def delete(self, request, board_id, pin_no, *args, **kwargs):
-        pin         = self.get_object(board_id, pin_no)
+        pin = self.get_object(board_id, pin_no)
         pin.delete()
         return Response(status=200)
 

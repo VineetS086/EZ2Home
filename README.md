@@ -1,18 +1,57 @@
+# HaXplore 2.0 - Submission Report Format
 
-# HaXplore 2.0, CodeFest 2021 Submissions
+This is the official code repository for _Talent-404_ . This _type of application_ was developed during HaXplore 2.0, 
+the online hackathon conducted by Codefest, the annual departmental fest of Computer Science department, IIT BHU Varanasi.
 
-## Submissions
-1. The Team Leader has to fork this repository using his/her GitHub Account. You can change the name of the fork repository as you wish. This repository will contain the complete submission, including the code, design and submission idea file.
-2. In Devfolio, update the Github submission link with the link to the above-forked repository.
-3. For the first phase of the hackathon, you have to rename the ***submission_README.md*** file to ***README.md*** and update it with your idea in the format specified in the file.
-4. The deadline to complete the above task is **27th March 6 PM sharp**.
+## _Talent-404_
 
-## Project Track:
-Choose from -
-- #### [Amazon Web Services Track](https://docs.google.com/document/d/16wxLl_8Eqw_bcjY28FnP3bc2YihB6pCN5aPAmF5An_o/edit?usp=sharing)
-- #### [Polygon - Hackathon Season Prize](https://www.notion.so/Polygon-Devfolio-Hackathon-Season-Prize-de8961d5eeff4780963749da0b75037c)
-- #### [Portis - Hackathon Season Prize](https://www.notion.so/Portis-by-Shapeshift-Devfolio-Hackathon-Season-Prize-e198dfd094a9411b8cd0f80d76a04a90)
-- #### [Tezos - Hackathon Season Prize](https://www.notion.so/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff)
+* _[VineetS086](https://github.com/VineetS086)_
+* _[pranavsambyal](https://github.com/pranavsambyal)_
+* _[rahuljandial](https://github.com/rahuljandial)_
+* _[swayamgupta74](https://github.com/swayamgupta74)_
+
+# _EZ2Home_
+#### Home Automation is Cool🤩! But it's Expansive🥲. 
+#### EZ2Home enables you to automate your Home using basic hardware that costs under ₹600/room.🤑
 
 
-You can find more details about the project tracks [here](https://drive.google.com/file/d/1699uvvBwiLcC8T6Cw9KYcHh-PysUI2448Vmz4Y7d7K8/view).
+
+## Overview
+EZ2Home is a Home Automation System that can be used to control Home Appliances over Internet or Home Wi-Fi network. 
+The Hadware requirement is only ESP module and Relays and you can automate your home.
+
+
+## Technology used
+Python, Django, MicroPython
+
+
+## Usage
+
+### Minimum Hardware Required For Useage
+* Any ESP module that supports MicroPython (eq-ESP8266, ESP32)
+* 5V multi-channel Relay module
+* Wi-Fi Network
+
+### Required Installations
+Python 3.8
+Django 3.2
+DjangoRestFramework 3.12
+
+
+
+
+
+#### Screenshots/Demo Video
+TO BE added
+
+#### Tracks used
+TO BE added
+
+
+#### AWS Services Used
+TO BE added
+
+
+
+
+

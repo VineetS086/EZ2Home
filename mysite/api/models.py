@@ -15,6 +15,10 @@ class Board(models.Model):
         status  = [(p.pin_no ,p.status) for p in pins]
         return status
 
+    @property
+    def active_pins(self):
+        return self.pin_set.filter(status=True).count()
+
     def pin_action(self, pin_arr):
         pins = self.pin_set.order_by('pin_no')
         if not len(pins)==len(pin_arr):

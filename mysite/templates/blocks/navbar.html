@@ -17,9 +17,9 @@
                 </div>
                 <!-- Here we have to check if user is logged in or not -->
                 {% if user.is_authenticated %}
-                        <a href="{% url 'logout' %} "><button class="btn btn-primary" href="#">Log Out</button></a>
+                        <button class="btn btn-primary" onclick="window.location.href = '{% url 'logout' %}';">Log Out</button>
                 {% else %}
-                        <a href="#"><button class="btn btn-primary" href="#">Login</button></a>
+                        <button class="btn btn-primary" onclick="window.location.href = '{% url 'login' %}';">Login</button>
                 {% endif %}
         </div>
 </nav>

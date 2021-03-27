@@ -1,6 +1,8 @@
 {% extends 'main.html' %}
 {% block content %}
-<h1>{{Room}}</h1>
+    <script>
+        document.getElementById('dropdownMenuLink').innerHTML = '{{Room}}'
+    </script>
     <div class="container grid mt-5">
                 <!-- Here we loop over the rooms which we can get from the database -->
                 <div class="row justify-content-evenly">

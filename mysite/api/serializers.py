@@ -6,7 +6,7 @@ from .models import Board, Pin
 
 class PinSerializer(serializers.ModelSerializer):
 
-
+    pin_no  = serializers.IntegerField(required=False)
 
     class Meta:
         model    = Pin

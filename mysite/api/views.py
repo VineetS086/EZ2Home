@@ -51,9 +51,33 @@ class BoardPinList(APIView):
     def post(self, request, board_id, *args, **kwargs):
         request.data['board'] = board_id
         serializer = PinSerializer(data=request.data)
-        print(serializer.data)
         if serializer.is_valid():
-            print(serializer)
-        return Response(serializer.data)
+            serializer.save()
+            return Response(serializer.data, status=201)
+        return Response(serializer.errors, status=400)
         
     
+class PinDetails(APIView):
+
+    def get_object(self, board_id, pin_no):
+        return get_object_or_404(Pin, board__id=board_id, pin_no=pin_no)
+
+    def get(self, request, board_id, pin_no, *args, **kwargs):
+        pin         = self.get_object(board_id, pin_no)
+        serializer  = PinSerializer(pin)
+        return Response(serializer.data)
+
+    def put(self, request, board_id, pin_no, *args, **kwargs):
+        pin         = self.get_object(board_id, pin_no)
+        serializer  = PinSerializer(pin, data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data)
+        return Response(serializer.errors, status=400)
+
+    def delete(self, request, board_id, pin_no, *args, **kwargs):
+        pin         = self.get_object(board_id, pin_no)
+        pin.delete()
+        return Response(status=200)
+
+

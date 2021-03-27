@@ -6,6 +6,8 @@ from .models import Board, Pin
 
 class PinSerializer(serializers.ModelSerializer):
 
+
+
     class Meta:
         model    = Pin
         fields   = ['name', 'board', 'pin_no', 'status']

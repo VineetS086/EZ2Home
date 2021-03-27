@@ -7,7 +7,7 @@ the online hackathon conducted by Codefest, the annual departmental fest of Comp
 
 * _[VineetS086](https://github.com/VineetS086)_
 * _[pranavsambyal](https://github.com/pranavsambyal)_
-* _[rahuljandial](https://github.com/rahuljandial)_
+* _[rahuljandial2](https://github.com/rahuljandial2)_
 * _[swayamgupta74](https://github.com/swayamgupta74)_
 
 # _EZ2Home_

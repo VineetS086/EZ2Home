@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand navbar-light bg-light">
+        <div class="container-fluid">
+                <a class="navbar-brand" href="#">Home</a>
+                <div class="navbar-nav me-auto">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Rooms
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                {% for room in rooms %}
+                                <li><a class="dropdown-item" href="#">{{room}}</a></li>
+                                {% endfor %}
+
+                        </ul>
+                        <a class="nav-link" href="#">Help</a>
+                </div>
+                <!-- Here we have to check if user is logged in or not -->
+                {% if user.is_authenticated %}
+                        <a href="#"><button class="btn btn-primary" href="#">Log Out</button></a>
+                {% else %}
+                        <a href="#"><button class="btn btn-primary" href="#">Login/Register</button></a>
+                {% endif %}
+        </div>
+</nav>

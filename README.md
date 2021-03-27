@@ -15,32 +15,42 @@ the online hackathon conducted by Codefest, the annual departmental fest of Comp
 #### EZ2Home enables you to automate your Home using basic hardware that costs under ₹600/room.🤑
 
 
-### Overview
 
+## Overview
 EZ2Home is a Home Automation System that can be used to control Home Appliances over Internet or Home Wi-Fi network. 
 The Hadware requirement is only ESP module and Relays and you can automate your home.
 
 
-#### Technology used
-
+## Technology used
 Python, Django, MicroPython
 
+
+## Usage
+
+### Minimum Hardware Required For Useage
+* Any ESP module that supports MicroPython (eq-ESP8266, ESP32)
+* 5V multi-channel Relay module
+* Wi-Fi Network
+
+### Required Installations
+Python 3.8
+Django 3.2
+DjangoRestFramework 3.12
+
+
+
+
+
 #### Screenshots/Demo Video
-
-_Add some screens and a demo_
-
-#### Usage
-
-_Tell in steps how can we setup your application. Also mention all relevant requirements and links._
+TO BE added
 
 #### Tracks used
+TO BE added
 
-_You were given several tracks to choose from in the problem statement. Tell which one did you choose and how does your
-application follow that track._
 
 #### AWS Services Used
+TO BE added
 
-_Write in brief about how you used AWS service to improve your application._
 
 
 

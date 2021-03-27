@@ -3,21 +3,24 @@
 This is the official code repository for _TEAM NAME_ . This _type of application_ was developed during HaXplore 2.0, 
 the online hackathon conducted by Codefest, the annual departmental fest of Computer Science department, IIT BHU Varanasi.
 
-### _Team Name_
+## _Talent-404_
 
-* _Member_
-* _Member_
+* _[VineetS086](https://github.com/VineetS086)_
+* _[pranavsambyal](https://github.com/pranavsambyal)_
+* _[rahuljandial](https://github.com/rahuljandial)_
+* _[swayamgupta74](https://github.com/swayamgupta74)_
 
-#### _Project Name_
-
+### _EZ2Home_
 
 #### Overview
 
-_Explain about your project, the vision behind it and how it helps enhance lifestyle, etc._
+EZ2Home is a Home Automation System that can be used to control Home Appliances over Internet or Home Wi-Fi network. 
+
+
 
 #### Technology used
 
-_Write about the technologies and tools used and how they were included and used in your application._
+Python, Django, MicroPython
 
 #### Screenshots/Demo Video
 

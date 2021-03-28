@@ -67,7 +67,8 @@ Python, Django, MicroPython
 
 ## Screenshots/Demo Video
 ### Video Link:
-*
+*https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/Clips/trailer.mp4
+*https://mega.nz/file/xU4k1CyT#fwkJpDAK-RFB3tJAGzwiEU16B72EuRqSjunwHrFrufA
 
 ### Simple Layout
 <div class="row">

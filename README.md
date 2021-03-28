@@ -22,6 +22,8 @@ The Hadware requirement is only ESP module and Relays and you can automate your 
 Here we will use APIs to connect to the microcontrollers and appliances are attached to that microcontroller can be 
 controlled directly from the site with just a click.
 
+#### Trailer- https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/Clips/trailer.mp4
+
 #### How it works
 Our project has a main page which contain all the rooms that can be controlled by the microprocessors.
 

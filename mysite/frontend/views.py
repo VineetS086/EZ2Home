@@ -24,8 +24,8 @@ def room_view(requests, pk):
         return redirect('login')
     context                 = get_common(requests)
     context['Room']         = get_object_or_404(Board, id=pk)
-    context['appliances']   = get_list_or_404(Pin, board__id=pk)
-
+    context['appliances']   = Pin.objects.filter(board__id=pk).order_by('pin_no')
+    print(context['appliances'])
     return render(requests, 'frontend/room.html', context)
 
 
@@ -55,3 +55,18 @@ def login_view(requests):
 def logout_view(requests):
     logout(requests)
     return redirect('login')
+
+def addPin_view(requests, pk):
+    data = requests.POST
+    pin = Pin(  name = data.get('applianceName'),
+                board = Board.objects.get(id=pk),
+                pin_no = data.get('appliancePin'),
+    )
+    pin.save()
+
+    return redirect('../') 
+
+def addBoard_view(requests):
+    Board(name=requests.POST.get('roomName')).save()
+    return redirect('../') 
+

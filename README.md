@@ -1,5 +1,5 @@
 # HaXplore 2.0 - Submission Report Format
-<img src="https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/logo.png" height="350">
+<img src="https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/logo.png" height="300">
 
 This is the official code repository for _Talent-404_ . This _type of application_ was developed during HaXplore 2.0, 
 the online hackathon conducted by Codefest, the annual departmental fest of Computer Science department, IIT BHU Varanasi.
@@ -8,8 +8,7 @@ the online hackathon conducted by Codefest, the annual departmental fest of Comp
 
 * _[VineetS086](https://github.com/VineetS086)_
 * _[rahuljandial2](https://github.com/rahuljandial2)_
-* _[pranavsambyal](https://github.com/pranavsambyal)_
-* _[swayamgupta74](https://github.com/swayamgupta74)_
+
 
 # _EZ2Home_
 #### Home Automation is Cool🤩! But it's Expansive🥲. 
@@ -42,22 +41,41 @@ Python, Django, MicroPython
 * Wi-Fi Network
 
 ### Required Installations
-Python 3.8
-Django 3.2
-DjangoRestFramework 3.12
+* Python 3.8 
+* Django 3.2
+* DjangoRestFramework 3.12
+
+* MicroPython- esp8266-20200911-v1.13.bin
 
 
+### Installation
+#### MicroController
+* Download the Firmware from this link - https://micropython.org/download/esp8266/
+* Installation guide- https://docs.micropython.org/en/latest/esp8266/tutorial/intro.html
+* Copy the content of EZ2Home/Micro-Controller/Lan/ to the ESP module
+* edit EZ2Home/Micro-Controller/Lan/wifi.json
+* edit host name in EZ2Home/Micro-Controller/Lan/main.py at line 14.
+
+#### Server Setup
+* open mysite.
+* reset the database.
+* run `$ python3 manage.py runserver 0.0.0.0:8888`
+* to know the host name run `$ ifconfig en0 inet` 
+
+### ENJOY
 
 
 ## Screenshots/Demo Video
+### Video Link:
+*
 
 ### Simple Layout
 <div class="row">
   <div class="column">
-<img src="https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/home.png" height="350">
+<img src="https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/home.png" height="300">
   </div>
   <div class="column">
-<img src="https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/room.png" height="350">
+<img src="https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/room.png" height="300">
   </div>
 </div>
 

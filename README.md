@@ -8,8 +8,7 @@ the online hackathon conducted by Codefest, the annual departmental fest of Comp
 
 * _[VineetS086](https://github.com/VineetS086)_
 * _[rahuljandial2](https://github.com/rahuljandial2)_
-* _[pranavsambyal](https://github.com/pranavsambyal)_
-* _[swayamgupta74](https://github.com/swayamgupta74)_
+
 
 # _EZ2Home_
 #### Home Automation is Cool🤩! But it's Expansive🥲. 

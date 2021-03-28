@@ -7,21 +7,32 @@ from django.contrib import messages
 from api.models import Board, Pin
 
 def get_common(requests):
+<<<<<<< Updated upstream
 
+=======
+    if not requests.user.is_authenticated:
+        return redirect('login')
+>>>>>>> Stashed changes
     return{
         'rooms':Board.objects.all()
     }
 
 def home_view(requests):
+<<<<<<< Updated upstream
     if not requests.user.is_authenticated:
         return redirect('login')
+=======
+>>>>>>> Stashed changes
     context = get_common(requests)
 
     return render(requests, 'frontend/home.html', context)
 
 def room_view(requests, pk):
+<<<<<<< Updated upstream
     if not requests.user.is_authenticated:
         return redirect('login')
+=======
+>>>>>>> Stashed changes
     context                 = get_common(requests)
     context['Room']         = get_object_or_404(Board, id=pk)
     context['appliances']   = get_list_or_404(Pin, board__id=pk)

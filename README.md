@@ -50,7 +50,9 @@ DjangoRestFramework 3.12
 
 
 #### Screenshots/Demo Video
-TO BE added
+![Image of Page](https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/Screenshot%202021-03-28%20at%2010.36.40%20AM.png)
+![Image of page](https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/Screenshot%202021-03-28%20at%2010.37.13%20AM.png)
+![Another image](https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/Screenshot%202021-03-28%20at%2010.37.35%20AM.png)
 
 #### Tracks used
 TO BE added

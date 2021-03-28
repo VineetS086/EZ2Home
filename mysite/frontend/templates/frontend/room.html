@@ -13,18 +13,15 @@
                 {% for appliance in appliances %}
                 <div class="btn-group col-md col-10 mb-2" role="group">
                     <button onclick="flip(this)" class="btn col-9 
-                    btn-{% if appliance.status %}success{% else %}secondary{% endif %}"  data-pin={{appliance.pin_no}} data-pinStatus='{{appliance.status}}' >
+                    btn-{% if appliance.status %}success{% else %}secondary{% endif %}"  data-pin={{appliance.pin_no}} data-pinStatus={{appliance.status}} >
                             {{appliance.name}}
                     </button>
 
-                    <button id="btnGroupDrop1" type="button" class="btn col-3 
-                    btn-{% if appliance.status %}success{% else %}secondary{% endif %} 
-                    dropdown-toggle"
-                            data-bs-toggle="dropdown" aria-expanded="false">
+                    <button id="btnGroupDrop1" type="button" class="btn col-3 btn-success dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
                             <li><a class="dropdown-item" href="#">Edit Appliance</a></li>
-                            <li><a class="dropdown-item" href="#">Delete Appliance</a></li>
+                            <li><a class="dropdown-item" onclick="deletePin({{appliance.pin_no}})">Delete Appliance</a></li>
                     </ul>
             </div>
                 {% endfor %}

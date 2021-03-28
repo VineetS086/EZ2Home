@@ -18,15 +18,29 @@ class EasyHTTP {
    } 
   }
 
+function flipValue(button){
+    flag = button.dataset.pinstatus=='False';
+    button.dataset.pinstatus = flag ? 'True' : 'False'
+
+    const removingClass   = flag ? 'btn-secondary' : 'btn-success'
+    const addingClass = flag ? 'btn-success' : 'btn-secondary'
+
+    button.classList.remove(removingClass);
+    button.classList.add(addingClass);
+
+    return flag
+
+}
+
 function flip(button){
     const room = getRoom()
     const port = location.port
     const host = location.hostname
     const apiLink = `/api/${room}/${button.dataset.pin}/`
 
-    const flag = button.dataset.pinstatus.toLowerCase()=='true' ? false:true;
-    
-    console.log(button.dataset.pinstatus);
+    const flag = flipValue(button)
+
+
 
     const http  = new EasyHTTP()
     const a = http.put(apiLink, {
@@ -47,3 +61,20 @@ function flip(button){
     
 //     return api
 // }
+
+function deletePin(pin){
+    const room = getRoom()
+    const apiLink = `/api/${room}/${pin}/`
+
+    fetch(apiLink , {
+  method: 'DELETE',
+  headers:{
+    'Content-Type':'application/json',
+    'X-CSRFToken': csrftoken
+}
+})
+.then(res => location.reload()) // or res.json()
+
+
+
+}

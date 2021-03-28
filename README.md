@@ -53,7 +53,7 @@ DjangoRestFramework 3.12
 ### Simple Layout
 <div class="row">
   <div class="column">
-<img style="padding-left:50px;"src="https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/home.png" height="600">
+<img src="https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/home.png" height="600">
   </div>
   <div class="column">
 <img src="https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/room.png" height="600">

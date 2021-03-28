@@ -19,7 +19,13 @@ the online hackathon conducted by Codefest, the annual departmental fest of Comp
 ## Overview
 EZ2Home is a Home Automation System that can be used to control Home Appliances over Internet or Home Wi-Fi network. 
 The Hadware requirement is only ESP module and Relays and you can automate your home.
+Here we will use APIs to connect to the microcontrollers and appliances are attached to that microcontroller can be 
+controlled directly from the site with just a click.
 
+#### How it works
+Our project has a main page which contain all the rooms that can be controlled by the microprocessors.
+Each room has their own page to show the available appliances that can be controlled from the buttons.
+If the appliances button is green it means the appliance is ON and if it's grey it means the appliance is OFF.
 
 ## Technology used
 Python, Django, MicroPython

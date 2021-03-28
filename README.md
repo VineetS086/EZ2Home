@@ -27,7 +27,7 @@ Python, Django, MicroPython
 
 ## Usage
 
-### Minimum Hardware Required For Useage
+### Minimum Hardware Required For Usage
 * Any ESP module that supports MicroPython (eq-ESP8266, ESP32)
 * 5V multi-channel Relay module
 * Wi-Fi Network

@@ -1,5 +1,5 @@
 # HaXplore 2.0 - Submission Report Format
-<img src="https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/logo.png" height="350">
+<img src="https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/logo.png" height="300">
 
 This is the official code repository for _Talent-404_ . This _type of application_ was developed during HaXplore 2.0, 
 the online hackathon conducted by Codefest, the annual departmental fest of Computer Science department, IIT BHU Varanasi.
@@ -54,10 +54,10 @@ DjangoRestFramework 3.12
 ### Simple Layout
 <div class="row">
   <div class="column">
-<img src="https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/home.png" height="350">
+<img src="https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/home.png" height="300">
   </div>
   <div class="column">
-<img src="https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/room.png" height="350">
+<img src="https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/room.png" height="300">
   </div>
 </div>
 

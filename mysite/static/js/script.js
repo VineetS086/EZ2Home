@@ -19,18 +19,31 @@ class EasyHTTP {
   }
 
 function flip(button){
-    console.log(button)
-}
-
-async function getPinsValue(){
     const room = getRoom()
     const port = location.port
     const host = location.hostname
-    const apiLink = `/api/${room}/`
-    console.log(apiLink)
-    response    = fetch(apiLink).then(res => console.log(res);
-    // api         = response.json()
-    // console.log(api)
+    const apiLink = `/api/${room}/${button.dataset.pin}/`
+
+    const flag = button.dataset.pinstatus.toLowerCase()=='true' ? false:true;
     
-    return room
+    console.log(button.dataset.pinstatus);
+
+    const http  = new EasyHTTP()
+    const a = http.put(apiLink, {
+    "status": flag
+    })
+
 }
+
+
+
+// async function getPinsValue(){
+//     const room = getRoom()
+//     const port = location.port
+//     const host = location.hostname
+//     const apiLink = `/api/${room}/`
+//     response    = await fetch(apiLink)//.then(res => res.json()).then(json => console.log(json));
+//     api         = response.json()
+    
+//     return api
+// }

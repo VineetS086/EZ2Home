@@ -70,9 +70,9 @@ class PinDetails(APIView):
     def put(self, request, board_id, pin_no, *args, **kwargs):
         pin         = self.get_object(board_id, pin_no)
 
-        request.data['board'] = board_id if request.data['board'] is None else request.data['board']
+        request.data['board'] = board_id
         request.data['pin_no'] = pin_no
-        request.data['name'] = pin.name if request.data['name'] is None else request.data['name']
+        request.data['name'] = pin.name 
 
         serializer  = PinSerializer(pin, data=request.data)
         if serializer.is_valid():

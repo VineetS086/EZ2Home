@@ -49,11 +49,11 @@ DjangoRestFramework 3.12
 
 
 #### Screenshots/Demo Video
-![Another image](https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/home.png)
-<img src="https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/home.png" width="100">
-![Another image](https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/room.png)
-![Another image](https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/login.png)
-![Another image](https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/add%20appliance.png)
+<img src="https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/home.png" width="350">
+<img src="https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/room.png" width="350">
+<img src="https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/login.png" width="400">
+<img src="https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/add%20appliance.png" width="400">
+
 
 #### Tracks used
 TO BE added

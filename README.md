@@ -24,7 +24,9 @@ controlled directly from the site with just a click.
 
 #### How it works
 Our project has a main page which contain all the rooms that can be controlled by the microprocessors.
+
 Each room has their own page to show the available appliances that can be controlled from the buttons.
+
 If the appliances button is green it means the appliance is ON and if it's grey it means the appliance is OFF.
 
 ## Technology used

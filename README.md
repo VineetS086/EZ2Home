@@ -50,6 +50,7 @@ DjangoRestFramework 3.12
 
 #### Screenshots/Demo Video
 ![Another image](https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/home.png)
+<img src="https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/home.png" width="100">
 ![Another image](https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/room.png)
 ![Another image](https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/login.png)
 ![Another image](https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/add%20appliance.png)

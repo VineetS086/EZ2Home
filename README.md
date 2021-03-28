@@ -6,8 +6,8 @@ the online hackathon conducted by Codefest, the annual departmental fest of Comp
 ## _Talent-404_
 
 * _[VineetS086](https://github.com/VineetS086)_
-* _[pranavsambyal](https://github.com/pranavsambyal)_
 * _[rahuljandial2](https://github.com/rahuljandial2)_
+* _[pranavsambyal](https://github.com/pranavsambyal)_
 * _[swayamgupta74](https://github.com/swayamgupta74)_
 
 # _EZ2Home_
@@ -49,8 +49,8 @@ DjangoRestFramework 3.12
 
 
 #### Screenshots/Demo Video
-![Image of Page](https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/home.png)
-![Image of page](https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/room.png)
+![Another image](https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/home.png)
+![Another image](https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/room.png)
 ![Another image](https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/login.png)
 ![Another image](https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/add%20appliance.png)
 

@@ -34,8 +34,7 @@ function flipValue(button){
 
 function flip(button){
     const room = getRoom()
-    const port = location.port
-    const host = location.hostname
+
     const apiLink = `/api/${room}/${button.dataset.pin}/`
 
     const flag = flipValue(button)

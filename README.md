@@ -63,8 +63,12 @@ Python, Django, MicroPython
 * run `$ python3 manage.py runserver 0.0.0.0:8888`
 * to know the host name run `$ ifconfig en0 inet` 
 
+### ENJOY
+
 
 ## Screenshots/Demo Video
+### Video Link:
+*
 
 ### Simple Layout
 <div class="row">

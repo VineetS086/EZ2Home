@@ -48,10 +48,22 @@ DjangoRestFramework 3.12
 
 
 
-#### Screenshots/Demo Video
-<img src="https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/home.png" width="350">
-<img src="https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/room.png" width="350">
-<img src="https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/login.png" width="400">
+## Screenshots/Demo Video
+
+### Simple Layout
+<div class="row">
+  <div class="column">
+<img style="padding-left:50px;"src="https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/home.png" height="600">
+  </div>
+  <div class="column">
+<img src="https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/room.png" height="600">
+  </div>
+</div>
+
+### Secure Login
+<img src="https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/login.png" width="300">
+
+### Add/Delete Appliances Easily
 <img src="https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/add%20appliance.png" width="400">
 
 

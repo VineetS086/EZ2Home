@@ -6,12 +6,12 @@
                 {% for room in rooms %}
                         <div class="btn-group col-8 col-sm-2 mb-2" role="group">
                                 <button onclick="window.location.href = '{{room.id}}/';"class="btn col-10 btn-primary">{{room}} ({{room.id}})</button>
-                                <!-- <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle"
+                                <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                                        <li><a class="dropdown-item" href="#"> room</a></li>
-                                </ul> -->
+                                        <li><a class="dropdown-item" href="#">Edit room</a></li>
+                                </ul>
                         </div>
                 {% endfor %}
                 </div>

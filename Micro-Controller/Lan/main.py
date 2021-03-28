@@ -3,7 +3,11 @@ def setup():
     
     return tuple(Pin(i, Pin.OUT).value for i in pin_no)
     
+<<<<<<< Updated upstream
 do_connect()
+=======
+#do_connect()
+>>>>>>> Stashed changes
 
 def get_link():
     d={
@@ -44,5 +48,9 @@ def loop():
             do_connect()
             
 
+<<<<<<< Updated upstream
 loop()
+=======
+#loop()
+>>>>>>> Stashed changes
 

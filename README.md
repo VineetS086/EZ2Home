@@ -42,11 +42,26 @@ Python, Django, MicroPython
 * Wi-Fi Network
 
 ### Required Installations
-Python 3.8
-Django 3.2
-DjangoRestFramework 3.12
+* Python 3.8 
+* Django 3.2
+* DjangoRestFramework 3.12
+
+* MicroPython- esp8266-20200911-v1.13.bin
 
 
+### Installation
+#### MicroController
+* Download the Firmware from this link - https://micropython.org/download/esp8266/
+* Installation guide- https://docs.micropython.org/en/latest/esp8266/tutorial/intro.html
+* Copy the content of EZ2Home/Micro-Controller/Lan/ to the ESP module
+* edit EZ2Home/Micro-Controller/Lan/wifi.json
+* edit host name in EZ2Home/Micro-Controller/Lan/main.py at line 14.
+
+#### Server Setup
+* open mysite.
+* reset the database.
+* run `$ python3 manage.py runserver 0.0.0.0:8888`
+* to know the host name run `$ ifconfig en0 inet` 
 
 
 ## Screenshots/Demo Video

@@ -3,7 +3,7 @@ def setup():
     
     return tuple(Pin(i, Pin.OUT).value for i in pin_no)
     
-#do_connect()
+do_connect()
 
 def get_link():
     d={
@@ -44,5 +44,5 @@ def loop():
             do_connect()
             
 
-#loop()
+loop()
 

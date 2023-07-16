@@ -1,18 +1,12 @@
-# HaXplore 2.0 - Submission Report Format
-<img src="https://github.com/VineetS086/EZ2Home/blob/main/Screenshots/logo.png" height="300">
-
-This is the official code repository for _Talent-404_ . This _type of application_ was developed during HaXplore 2.0, 
-the online hackathon conducted by Codefest, the annual departmental fest of Computer Science department, IIT BHU Varanasi.
-
-## _Talent-404_
-
-* _[VineetS086](https://github.com/VineetS086)_
-* _[rahuljandial2](https://github.com/rahuljandial2)_
-
 
 # _EZ2Home_
 #### Home Automation is Cool🤩! But it's Expansive🥲. 
 #### EZ2Home enables you to automate your Home using basic hardware that costs under ₹600/room.🤑
+
+## Team
+
+* _[VineetS086](https://github.com/VineetS086)_
+* _[rahuljandial2](https://github.com/rahuljandial2)_
 
 
 
